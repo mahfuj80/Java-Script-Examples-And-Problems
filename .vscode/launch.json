@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Examples\\apply-js-core-concepts\\findOddSum.js"
+            "program": "${file}"
         }
     ]
 }
