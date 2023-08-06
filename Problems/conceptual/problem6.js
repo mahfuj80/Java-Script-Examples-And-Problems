@@ -4,6 +4,8 @@ function gemsToDiamond(x, y, z) {
         return "please provide me valid number";
     } else if (x < 0 || y < 0 || z < 0) {
         return "please provide me all positive numbers";
+    } else if (x % 1 !== 0 || x % 1 !== 0 || x % 1 !== 0) {
+        return 'please provide integer number';
     } else {
         /**
          * 1st friends power = 21
