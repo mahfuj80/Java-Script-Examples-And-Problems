@@ -4,7 +4,7 @@ function gemsToDiamond(x, y, z) {
         return "please provide me valid number";
     } else if (x < 0 || y < 0 || z < 0) {
         return "please provide me all positive numbers";
-    } else if (x % 1 !== 0 || x % 1 !== 0 || x % 1 !== 0) {
+    } else if (x % 1 !== 0 || y % 1 !== 0 || z % 1 !== 0) {
         return 'please provide integer number';
     } else {
         /**
@@ -25,4 +25,4 @@ function gemsToDiamond(x, y, z) {
     }
 }
 
-console.log(gemsToDiamond(100, 5, 1));
+console.log(gemsToDiamond(100, 5.5, 1));
